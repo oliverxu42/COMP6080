@@ -49,6 +49,89 @@ A web browser is a tool that processes HTML, CSS, JS (and more) and renders it f
 
 ## HTML Basics
 
+Here is a simple HTML document, it consists of various HTML tags:
+
+```html
+<!-- Specifies an html document -->
+<!DOCTYPE html>
+<html>
+  <!-- Contains metadata -->
+  <head lang="en">
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="description" content="Course website for COMP6080" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <!-- What actually gets rendered -->
+  <body>
+    <h1>Hello World!</h1>
+    <p>Lorem ipsum</p>
+  </body>
+</html>
+```
+
 ## CSS Basics
+
+CSS adds style to our HTML documents. There are three ways to use CSS:
+
+1. **In-line CSS**: Directly style an HTML element.
+
+```html
+<h1 style="color:red;">Inline</h1>
+```
+
+2. **HTML Head**: Specify the styles in the metadata (head).
+
+```html
+<html>
+  <head>
+    <style>
+      h1 {
+        color: "red";
+      }
+      p {
+        font-size: 20px;
+        color: rgb(72, 72, 72);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>Lorem ipsum</p>
+  </body>
+</html>
+```
+
+3. **External Stylesheet**: Define all styles in a separate stylesheet and import it in the head. (This way is preferred).
+
+```css
+/* styles.css */
+
+h1 {
+  color: "red";
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+  margin: 10px;
+}
+```
+
+Inside `index.html`:
+
+```html
+<html>
+  <head lang="en">
+    <link rel="stylesheet" href="styles.css" />
+  <body>
+    <h1>Hello World!</h1>
+    <p>Lorem ipsum</p>
+  </body>
+</html>
+```
 
 ## Exercise
