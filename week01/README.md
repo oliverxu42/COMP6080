@@ -49,6 +49,14 @@ A web browser is a tool that processes HTML, CSS, JS (and more) and renders it f
 
 ## HTML Basics
 
+HTML defines the structure of a webpage.
+
+### Syntax:
+
+```html
+<tag attr1="value1" attr2="value2">Stuff</tag>
+```
+
 Here is a simple HTML document, it consists of various HTML tags:
 
 ```html
@@ -74,7 +82,22 @@ Here is a simple HTML document, it consists of various HTML tags:
 
 ## CSS Basics
 
-CSS adds style to our HTML documents. There are three ways to use CSS:
+CSS adds style to our HTML documents.
+
+### Syntax:
+
+```css
+[selector] {
+  [property]: [value];
+}
+
+/* e.g. */
+body {
+  color: 'blue';
+}
+```
+
+There are three ways to use CSS:
 
 1. **In-line CSS**: Directly style an HTML element.
 
@@ -89,7 +112,7 @@ CSS adds style to our HTML documents. There are three ways to use CSS:
   <head>
     <style>
       h1 {
-        color: "red";
+        color: 'red';
       }
       p {
         font-size: 20px;
@@ -110,13 +133,13 @@ CSS adds style to our HTML documents. There are three ways to use CSS:
 /* styles.css */
 
 h1 {
-  color: "red";
+  color: 'red';
   padding: 20px;
 }
 
 p {
   font-size: 20px;
-  color: rgb(72, 72, 72);
+  color: #257b9c;
   margin: 10px;
 }
 ```
@@ -127,6 +150,7 @@ Inside `index.html`:
 <html>
   <head lang="en">
     <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
     <h1>Hello World!</h1>
     <p>Lorem ipsum</p>
