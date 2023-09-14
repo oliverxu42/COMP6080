@@ -19,8 +19,7 @@ Name: Oliver Xu
 Degree + year: 4th year Aerospace Engineering/Computer Science
 Hobbies: Music (especially classical!), Planes, Motorbikes
 ```
-
-Now your turn...
+Form groups of 4-5, 1. Introduce yourself to each other and 2. Find one example of a good website and one that your group thinks is bad. Discussion to follow! 
 
 ## Course Info
 
@@ -158,4 +157,13 @@ Inside `index.html`:
 </html>
 ```
 
-## Exercise
+## Exercises
+1. Generate simple box
+2. Replicate simple layout
+
+
+## Week 1 Action Items
+
+- [ ] Week 1 Lectures, mandatory ones must be watched!
+- [ ] Get started on assignment 1 
+
