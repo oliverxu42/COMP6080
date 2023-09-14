@@ -164,6 +164,6 @@ Inside `index.html`:
 
 ## Week 1 Action Items
 
-- [] Week 1 Lectures, mandatory ones must be watched!
-- [] Get started on assignment 1 
+- [ ] Week 1 Lectures, mandatory ones must be watched!
+- [ ] Get started on assignment 1 
 
