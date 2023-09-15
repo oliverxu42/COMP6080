@@ -109,7 +109,7 @@ There are three ways to use CSS:
 ```html
 <html>
   <head>
-    <style>
+    <style type="text/css">
       h1 {
         color: 'red';
       }
