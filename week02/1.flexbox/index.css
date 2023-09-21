@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 500px;
+  min-height: 80px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.item {
+  width: 100px;
+  height: 80px;
+  background-color: blueviolet;
+  border: 1px solid grey;
+  margin: 2px;
+}
