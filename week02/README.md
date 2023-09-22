@@ -48,6 +48,16 @@ See demo! 1.flexbox
 - `vh` relative to 1% of the height of the viewport.
 - `%` relative to the parent element.
 
+```css
+h1 {
+  font-size: 2em; /* 2x the font-size of the current element */
+}
+
+h2 {
+  font-size: 20vw; /* 20% of the viewport width */
+}
+```
+
 ### Media Queries
 
 Allows CSS rules to apply to elements only when the device reaches a specific condition.
@@ -64,4 +74,4 @@ Allows CSS rules to apply to elements only when the device reaches a specific co
 }
 ```
 
-Demo!
+Demo! 2.mobile
