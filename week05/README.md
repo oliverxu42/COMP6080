@@ -5,6 +5,7 @@ Hi everyone! Welcome to Week 5! :D
 ### 📢 Updates & Reminders
 
 - Assignment 1 marks released! Any issues, let me know asap!
+- Assignment 2 marks out soon! Auto-marking results will be available in a video.
 - Assignment 3 (Vanilla JS) has been released! Due Friday 27th October, 10pm! Make sure you get started on it early :))
 
 ### Today...
@@ -68,3 +69,25 @@ fetch(url).then((res) => {
 ```
 
 Demo, see `2.fetch`
+
+## Async/Await
+
+Easier way to deal with promises:
+
+```Javascript
+const asyncFunc = async () => {
+  const promise = new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('you promised me async');
+    }, 5000);
+  });
+
+  const msg = await promise; // wait for promise to be resolved before continuing
+  console.log(msg);
+};
+
+asyncFunc();
+
+```
+
+Can't use for assignment 3, sorryyy :((
