@@ -13,7 +13,7 @@ const createElement = (text) => {
 
 // Fetch and render items...
 
-fetch('http://www.cse.unsw.edu.asu/~cs6080/raw/data/package.json')
+fetch('http://www.cse.unsw.edu.au/~cs6080/raw/data/package.json')
   .then((res) => res.json())
   .then((res) => {
     localStorage.setItem('comp6080', JSON.stringify(res));
