@@ -4,6 +4,7 @@ Welcome to Week 9!
 
 ### 📢 Updates & Reminders
 
+- Assignment 3 marks released! Last day to follow up if you have have any queries!
 - Assignment 4 (AirBrb) is due next week Friday 17th of November at 10pm!
 
 ### Today...
