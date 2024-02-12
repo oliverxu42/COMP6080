@@ -150,9 +150,3 @@ Inside `index.html`:
 1. Generate simple box
 2. Replicate simple layout
 
-
-## Week 1 Action Items
-
-- [ ] Week 1 Lectures, mandatory ones must be watched!
-- [ ] Get started on assignment 1 
-
