@@ -100,7 +100,7 @@ There are three ways to use CSS:
   <head>
     <style type="text/css">
       h1 {
-        color: 'red';
+        color: red;
       }
       p {
         font-size: 20px;
@@ -121,7 +121,7 @@ There are three ways to use CSS:
 /* styles.css */
 
 h1 {
-  color: 'red';
+  color: red;
   padding: 20px;
 }
 
