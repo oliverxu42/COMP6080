@@ -81,7 +81,7 @@ CSS adds style to our HTML documents.
 
 /* e.g. */
 body {
-  color: 'blue';
+  color: blue;
 }
 ```
 
