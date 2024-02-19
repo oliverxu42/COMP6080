@@ -2,10 +2,12 @@
 
 Hello! Welcome to Week 2!
 
+How are we feeling? Biggest worries/fears about the course?
+
 ### 📢 Updates & Reminders
 
-- Assignment 1 due Friday Week 3 (29/9) at 10pm!
-- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/23T3/timetable/help-sessions
+- Assignment 1 due Friday Week 3 (1/3) at 8pm!
+- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/24T1/timetable/help-sessions
 
 ### Today...
 
