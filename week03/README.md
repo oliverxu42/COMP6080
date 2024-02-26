@@ -1,12 +1,11 @@
 # Week 3
 
-Hello, Welcome to Week 3! Especially to those from the other tutorial stream :)
+Hello, Welcome to Week 3!
 
 ### 📢 Updates & Reminders
 
-- Assignment 1 due Friday Week 3 (Today!) at 10pm
-- Help session Friday 6-8pm
-- Assignment 2 will be released soon (Javascript)!
+- Assignment 1 due Friday Week 3 (this week!)  at 8pm
+- Assignment 2 will be released at the end of this week (Javascript)!
 
 ### Today...
 
