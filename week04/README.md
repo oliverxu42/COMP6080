@@ -10,6 +10,7 @@ Hello, Welcome to Week 4!
 ### Today...
 
 🖥️ More DOM practice
+
 📦 Local Storage
 
 ## Local Storage
