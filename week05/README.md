@@ -5,8 +5,8 @@ Hi everyone! Welcome to Week 5! :D
 ### 📢 Updates & Reminders
 
 - Assignment 1 marks released! Any issues, let me know asap!
-- Assignment 2 marks out soon! Auto-marking results will be available in a video.
-- Assignment 3 (Vanilla JS) has been released! Due Friday 27th October, 10pm! Make sure you get started on it early :))
+- Assignment 2 marks out soon!
+- Assignment 3 (Vanilla JS) has been released! Due Friday Week 7, 10pm! Make sure you get started on it early :))
 
 ### Today...
 
