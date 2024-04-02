@@ -38,7 +38,7 @@ const [state, setState] = useState(initialValue);
 const [threads, setThreads] = useState([]);
 
 // later...
-setThreads({ id: 1, text: 'text' });
+setThreads([{ id: 1, text: 'text' }]);
 // threads = [{ id: 1, text: 'text' }], re-render.
 ```
 
