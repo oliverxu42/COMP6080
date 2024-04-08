@@ -5,11 +5,11 @@ Welcome to Week 9!
 ### 📢 Updates & Reminders
 
 - Assignment 3 marks released! Last day to follow up if you have have any queries!
-- Assignment 4 (AirBrb) is due next week Friday 17th of November at 10pm!
+- Assignment 4 (Presto) is due next week Friday 19th of April at 10pm!
 
 ### Today...
 
-🔄 Hooks: useEffect & useContext
+🔄 Hooks: useEffect & creating custom hooks
 
 🧪 Component Testing: React Testing Library
 
@@ -36,99 +36,41 @@ const App = () => {
     })
 }
 ```
-
-## Hooks: useContext
-
-What are some issues with the following code?
+## Hooks: custom hooks
+We can also create custom hooks, here's a simple hook that allows for easier fetching of data from local storage...
 
 ```Javascript
+export const useLocalStorage = () => {
+  const [value, setValue] = useState(null);
 
-function Component1() {
-  const [user, setUser] = useState("Bob");
+  const setItem = (key, value) => {
+    localStorage.setItem(key, value);
+    setValue(value);
+  };
 
-  return (
-    <>
-      <Component2 user={user} />
-    </>
-  );
-}
+  const getItem = (key) => {
+    const value = localStorage.getItem(key);
+    setValue(value);
+    return value;
+  };
 
-function Component2({ user }) {
-  return (
-    <>
-      <h1>Component 2</h1>
-      <Component3 user={user} />
-    </>
-  );
-}
+  const removeItem = (key) => {
+    localStorage.removeItem(key);
+    setValue(null);
+  };
 
-function Component3({ user }) {
-  return (
-    <>
-      <h1>Component 3</h1>
-      <Component4 user={user} />
-    </>
-  );
-}
+  return { value, setItem, getItem, removeItem };
+};
 
-function Component4({ user }) {
-  return (
-    <>
-      <h1>Component 4</h1>
-      <Component5 user={user} />
-    </>
-  );
-}
+// Usage
+const { getItem, setItem } = useLocalStorage();
 
-function Component5({ user }) {
-  return (
-    <>
-      <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
-    </>
-  );
-}
+setItem('user', 'bob');
 
+const user = getItem('user'); // 'bob'
 ```
 
-Prop-drilling! We have to pass the user down many levels of the component tree.
-
-> useContext is a way for React to manage global state and share state between multi-levels of nested components without the need for prop-drilling.
-
-```Javascript
-
-// Create the context
-const UserContext = createContext()
-
-
-function Component1() {
-  const [user, setUser] = useState("Jesse Hall");
-
-  // Wrap child components in the "context provider", all components within the tree will have access to the "UserContext".
-  return (
-    <UserContext.Provider value={user}>
-      <h1>{`Hello ${user}!`}</h1>
-      <Component2 user={user} />
-    </UserContext.Provider>
-  );
-}
-
-
-function Component5() {
-
-  // We can access the user in the nested component through useContext.
-  const user = useContext(UserContext);
-
-  return (
-    <>
-      <h1>Component 5</h1>
-      <h2>{`Hello ${user} again!`}</h2>
-    </>
-  );
-}
-```
-
-- useContext is a great way to manage sessions and keep track of tokens! See: https://dayvster.com/blog/use-context-for-auth
+See: `exercises/react-custom-hook`
 
 ## React Component Testing
 
