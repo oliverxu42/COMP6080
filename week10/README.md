@@ -4,7 +4,7 @@ Congratulations on making it to Week 10!
 
 ### 📢 Updates & Reminders
 
-- Assignment 4 is due tonight at 10pm!
+- Assignment 4 is due Friday at 10pm!
 
 ### Today...
 
