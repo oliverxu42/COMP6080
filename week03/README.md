@@ -5,7 +5,7 @@ Hello, Welcome to Week 3!
 ### 📢 Updates & Reminders
 
 - Assignment 1 due Friday Week 3 (this week!)  at 8pm
-- Assignment 2 will be released at the end of this week (Javascript)!
+- Assignment 2 has been released (Javascript)!
 
 ### Today...
 
