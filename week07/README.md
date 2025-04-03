@@ -4,7 +4,7 @@ Hi everyone! Welcome to back to week 7!
 
 ### 📢 Updates & Reminders
 
-- Assignment 3 due Friday Week 7, 10pm! Good Friday public holiday -> Special Consideration
+- Assignment 3 due Friday Week 7, 8pm!
 - Assignment 4 Pair/Individual Form -> MUST COMPLETE!
 
 ### Today...
@@ -74,8 +74,8 @@ Examples:
 
 > React is a javascript framework for building user interfaces based on components. https://react.dev/
 
-### Getting Started
+### Getting Started with Vite
 
-To create a React app, use the following command `npx create-react-app [your app name]`
+To create a React app, use the following command `npm create vite@latest`
 
-Next, `cd` into the folder that was created and run `npm start` to start up your app.
+Next, `cd` into the folder that was created and run `npm run dev` to start up your app.
