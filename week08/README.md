@@ -5,7 +5,7 @@ Hello! Welcome to week 8!
 ### 📢 Updates & Reminders
 
 - Assignment 3 marks out end of this week!
-- Assignment 4 (React: Presto!) due Friday (Week 10) 19th April, 10pm
+- Assignment 4 (React) due Friday (Week 10) 25th April, 8pm
 
 ### Today...
 
