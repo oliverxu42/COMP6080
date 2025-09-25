@@ -7,7 +7,7 @@ How are we feeling? Biggest worries/fears about the course?
 ### 📢 Updates & Reminders
 
 - Assignment 1 due Friday Week 3 at 8pm!
-- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/24T3/timetable/help-sessions
+- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/25T3/timetable/help-sessions
 
 ### Today...
 
