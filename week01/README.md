@@ -12,14 +12,14 @@ Hello! Welcome to COMP6080 - Web frontend programming! :)
 
 ## Course Info
 
-**Course Website**: https://cgi.cse.unsw.edu.au/~cs6080/25T3. For all course content and info including lectures, tutorials, assignments etc.
+**Course Website**: https://cgi.cse.unsw.edu.au/~cs6080/26T1. For all course content and info including lectures, tutorials, assignments etc.
 
 **GitLab**: Where you can find tutorial exercises and where you will be completing your assignment work.
 
 ### Where to get help?
 
-- **Help Sessions**: https://cgi.cse.unsw.edu.au/~cs6080/25T3/timetable/help-sessions
-- **Discourse Forum**: https://discourse02.cse.unsw.edu.au/25T3/COMP6080/
+- **Help Sessions**: https://cgi.cse.unsw.edu.au/~cs6080/26T1/timetable/help-sessions
+- **Discourse Forum**: https://discourse02.cse.unsw.edu.au/26T1/COMP6080/
 - **Me**: z5310488@ad.unsw.edu.au
 - **Course Email**: cs6080@cse.unsw.edu.au
 
